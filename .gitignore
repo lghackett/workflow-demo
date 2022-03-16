@@ -1,0 +1,10 @@
+data/*
+.DS_Store
+*-checkpoint.ipynb
+.Rhistory
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+Tex/viewers/*
