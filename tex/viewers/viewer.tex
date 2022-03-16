@@ -1,0 +1,48 @@
+\documentclass[11pt]{article}
+\usepackage{enumerate,amsmath,amssymb,amsthm}%,fancyhdr}
+\usepackage{setspace}
+\usepackage{sectsty}
+\usepackage[margin = 1 in]{geometry}
+\usepackage{graphicx}
+\footskip  0.25in
+\usepackage{booktabs}
+\usepackage{etoolbox}
+\usepackage{stackengine}
+\usepackage{listings}
+\usepackage{subfiles}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{verbatim}
+\usepackage{dsfont}
+\usepackage{array}
+\usepackage{siunitx}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+%%%%%%%%%%%%%% bibliography
+\usepackage{natbib}
+\bibliographystyle{chicago}
+
+\begin{document}
+
+\section*{Viewer document and importing tables into tex}
+
+This is what a typical viewer looks like for me; a simple tex document where I can input tables and figures. Note that calling these tables in the actual paper is exactly the same "shell".
+
+\begin{table}[!htbp]
+\centering
+\setlength{\tabcolsep}{2pt}
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Main regressions}
+\footnotesize{
+\input{../tabs/regs.tex}
+}
+\raggedright
+\noindent
+\footnotesize{Notes: }
+\end{table}
+
+\end{document}

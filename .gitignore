@@ -7,4 +7,3 @@ data/*
 *.fls
 *.log
 *.synctex.gz
-Tex/viewers/*
