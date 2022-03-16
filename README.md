@@ -25,7 +25,7 @@ I organize the following explanation of workflow and files in this repository in
 
 Most of the above directories are empty, but I created them to give a sense of the overall file structure.
 
-4. **tools/metrics-env.yml**. The ``tools`` directory holds technical files such as the ``.yml`` file that describes the conda environment that I did the work in which is helpful for replication.
+4. ``tools/metrics-env.yml``. The ``tools`` directory holds technical files such as the ``.yml`` file that describes the conda environment that I did the work in which is helpful for replication.
 
 
 
