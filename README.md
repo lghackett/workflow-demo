@@ -18,11 +18,14 @@ I organize the following explanation of workflow and files in this repository in
 	3. Create figures and export them as a ``.pdf`` in ``tex/figs``
 
 3. **Writing:** ``tex/viewers/viewer.tex, viewer.pdf``. Finally, analysis must be written up in a paper (hopeully!) for publication. All the writing materials are stored in the ``tex`` directory.
-	* ``tex/viewers`` holds "viewer" files that I use to check out regression tables and figures along the way; this is a scratch-type directory, and is also git ignored.
+	* ``tex/viewers`` holds "viewer" files that I use to check out regression tables and figures along the way; this is a scratch-type directory, and can also git ignored.
 	* ``tex/paper`` holds the paper itself, which is a similar tex file as the viewer and imports tables and figures in the same way. 
+	* I would also store the ``.bib`` file in the ``tex/paper`` directory.
 	* Other directories are helpful for presentations and proposals that are also made in latex.
 
 Most of the above directories are empty, but I created them to give a sense of the overall file structure.
+
+4. **tools/metrics-env.yml**. The ``tools`` directory holds technical files such as the ``.yml`` file that describes the conda environment that I did the work in which is helpful for replication.
 
 
 
